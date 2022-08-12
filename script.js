@@ -27,3 +27,8 @@
 //arrays
 const adib = ["adib", "mansuri", "23"];
 console.log(adib);
+// add element
+adib.push("happy");
+console.log(adib);
+
+// exercise
