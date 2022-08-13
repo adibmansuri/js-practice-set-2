@@ -42,10 +42,15 @@
 
 // object
 const adib = {
-  firstname: "adib",
-  lastname: "mansuri",
+  firstname: "Adib",
+  lastname: "Mansuri",
   friends: ["michael", "peter", "steven"],
 };
 adib.location = "india";
 adib["job"] = "teacher";
 console.log(adib);
+// challange
+
+console.log(
+  `${adib.firstname}  has ${adib.friends.length} friends, and his bestfriend is ${adib.friends[0]}`
+);
