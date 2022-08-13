@@ -69,36 +69,41 @@
 // `}
 // );
 
-// challange
+// // challange
 
-const mark = {
-  fullname: "Mark Miller",
-  mass: 78,
-  height: 1.69,
-  calcbmi: function () {
-    this.bmi = this.mass / this.height ** 2;
-    return this.bmi;
-  },
-};
-const johan = {
-  fullname: "Johan Smith",
-  mass: 92,
-  height: 1.95,
-  calcbmi: function () {
-    this.bmi = this.mass / this.height ** 2;
-    return this.bmi;
-  },
-};
-mark.calcbmi();
-johan.calcbmi();
-console.log(mark.bmi);
-console.log(johan.bmi);
-if (mark.bmi > johan.bmi) {
-  console.log(
-    `${mark.fullname}'s BMI ${mark.bmi} is higher than ${johan.fullname}'s BMI ${johan.bmi}`
-  );
-} else if (johan.bmi > mark.bmi) {
-  console.log(
-    `${johan.fullname}'s BMI ${johan.bmi} is higher than ${mark.fullname}'s BMI ${mark.bmi}`
-  );
+// const mark = {
+//   fullname: "Mark Miller",
+//   mass: 78,
+//   height: 1.69,
+//   calcbmi: function () {
+//     this.bmi = this.mass / this.height ** 2;
+//     return this.bmi;
+//   },
+// };
+// const johan = {
+//   fullname: "Johan Smith",
+//   mass: 92,
+//   height: 1.95,
+//   calcbmi: function () {
+//     this.bmi = this.mass / this.height ** 2;
+//     return this.bmi;
+//   },
+// };
+// mark.calcbmi();
+// johan.calcbmi();
+// console.log(mark.bmi);
+// console.log(johan.bmi);
+// if (mark.bmi > johan.bmi) {
+//   console.log(
+//     `${mark.fullname}'s BMI ${mark.bmi} is higher than ${johan.fullname}'s BMI ${johan.bmi}`
+//   );
+// } else if (johan.bmi > mark.bmi) {
+//   console.log(
+//     `${johan.fullname}'s BMI ${johan.bmi} is higher than ${mark.fullname}'s BMI ${mark.bmi}`
+//   );
+// }
+
+// for loop
+for (let rep = 1; rep <= 5; rep++) {
+  console.log(`I lift ${rep} repetition`);
 }
