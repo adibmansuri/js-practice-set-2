@@ -107,4 +107,10 @@
 // for (let rep = 1; rep <= 5; rep++) {
 //   console.log(`I lift ${rep} repetition`);
 // }
-s;
+const jonas = [
+  "Adib",
+  "Mansuri",
+  2022 - 1996,
+  "teacher",
+  ["michele", " arsalan", "raza"],
+];
