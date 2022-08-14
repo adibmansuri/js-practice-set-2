@@ -107,10 +107,34 @@
 // for (let rep = 1; rep <= 5; rep++) {
 //   console.log(`I lift ${rep} repetition`);
 // }
-const jonas = [
-  "Adib",
-  "Mansuri",
-  2022 - 1996,
-  "teacher",
-  ["michele", " arsalan", "raza"],
-];
+// const jonas = [
+//   "Adib",
+//   "Mansuri",
+//   2022 - 1996,
+//   "teacher",
+//   ["michele", " arsalan", "raza"],
+// ];
+
+// challange
+const calctip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.5 : bill * 0.2;
+};
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const total = [];
+for (let i = 0; i < bills.length; i++) {
+  const tip = calctip(bills[i]);
+  tips.push(tip);
+  total.push(tip + bills[i]);
+}
+console.log(bills, tips, total);
+
+const callcaverage = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum / arr.length;
+};
+console.log(callcaverage([2, 3, 7]));
+console.log(callcaverage(total));
