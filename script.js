@@ -103,7 +103,8 @@
 //   );
 // }
 
-// for loop
-for (let rep = 1; rep <= 5; rep++) {
-  console.log(`I lift ${rep} repetition`);
-}
+// // for loop
+// for (let rep = 1; rep <= 5; rep++) {
+//   console.log(`I lift ${rep} repetition`);
+// }
+s;
